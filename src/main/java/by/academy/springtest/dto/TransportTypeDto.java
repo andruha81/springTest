@@ -7,9 +7,8 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-public class TransportLiteDto implements Serializable {
+public class TransportTypeDto implements Serializable {
     private static final long serialVersionUID = 1L;
-    private int transportLiteDtoId;
-    private String model;
-    private TransportTypeDto transportTypeDto;
+    private int transportTypeDtoId;
+    private String description;
 }

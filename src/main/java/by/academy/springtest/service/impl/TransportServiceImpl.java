@@ -3,7 +3,6 @@ package by.academy.springtest.service.impl;
 import by.academy.springtest.dto.TransportLiteDto;
 import by.academy.springtest.mapper.TransportMapper;
 import by.academy.springtest.model.dao.TransportDao;
-import by.academy.springtest.model.entity.Transport;
 import by.academy.springtest.service.TransportService;
 import org.mapstruct.factory.Mappers;
 import org.springframework.stereotype.Service;
